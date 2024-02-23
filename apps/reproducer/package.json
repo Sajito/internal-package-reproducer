@@ -1,0 +1,15 @@
+{
+  "name": "reproducer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsup --watch --onSuccess \"node dist\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "logger": "workspace:^"
+  }
+}
